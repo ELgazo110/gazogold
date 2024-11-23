@@ -3714,12 +3714,12 @@ QuilavaEvosAttacks:
 	db 6, SMOKESCREEN
 	db 10, EMBER
 	db 13, QUICK_ATTACK
-	db 20, DEFENSE_CURL ; Flame Wheel → Defense Curl
+	db 20, FLAMETHROWER ; Flame Wheel → Defense Curl
 	db 24, FLAME_CHARGE ; Defense Curl → Flame Charge
 	db 31, SWIFT
 	db 35, DIG ; Flame Charge → TM move
 	db 42, REVERSAL ; Lava Plume → egg move
-	db 46, FLAMETHROWER
+	db 46, DEFENSE_CURL
 	db 53, EARTH_POWER ; Inferno → new move
 	db 57, ROLLOUT
 	db 64, DOUBLE_EDGE
