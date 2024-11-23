@@ -3706,18 +3706,18 @@ CyndaquilEvosAttacks:
 	db -1 ; no more level-up moves
 
 QuilavaEvosAttacks:
+	evo_data EVOLVE_MOVE, CURSE, TYPHLOSION, HISUIAN_FORM
 	evo_data EVOLVE_LEVEL, 36, TYPHLOSION
-	evo_data EVOLVE_MOVE, SHADOW_BALL, TYPHLOSION, HISUIAN_FORM
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 1, LEER
 	db 6, SMOKESCREEN
 	db 10, EMBER
 	db 13, QUICK_ATTACK
-	db 20, FLAMETHROWER ; Flame Wheel → Defense Curl
+	db 20, DEFENSE_CURL ; Flame Wheel → Defense Curl
 	db 24, FLAME_CHARGE ; Defense Curl → Flame Charge
 	db 31, SWIFT
-	db 36, SHADOW_BALL ; Flame Charge → TM move CHANGED FROM DIG
+	db 36, CURSE ; Flame Charge → TM move CHANGED FROM DIG
 	db 42, REVERSAL ; Lava Plume → egg move
 	db 46, DEFENSE_CURL
 	db 53, EARTH_POWER ; Inferno → new move
@@ -3763,7 +3763,7 @@ TyphlosionHisuianEvosAttacks:
 	db 37, HEX
 	db 38, FLAMETHROWER
 	db 43, WILL_O_WISP ; Lava Plume → TM move
-	db 56, SHADOW_CLAW
+	db 56, SHADOW_BALL
 	db 61, ROLLOUT
 	db 69, DOUBLE_EDGE
 	db 74, DARK_PULSE ; Infernal Parade → new move
