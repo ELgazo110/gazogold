@@ -3707,7 +3707,7 @@ CyndaquilEvosAttacks:
 
 QuilavaEvosAttacks:
 	evo_data EVOLVE_LEVEL, 36, TYPHLOSION
-	evo_data EVOLVE_ITEM, DUSK_STONE, 30, TYPHLOSION, HISUIAN_FORM
+	evo_data EVOLVE_ITEM, DUSK_STONE, LEVEL_GT_30, TYPHLOSION, HISUIAN_FORM
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 1, LEER
