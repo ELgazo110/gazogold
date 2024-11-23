@@ -3692,14 +3692,13 @@ CyndaquilEvosAttacks:
 	db 6, SMOKESCREEN
 	db 10, EMBER
 	db 13, QUICK_ATTACK
-	db 19, DEFENSE_CURL ; Flame Wheel → Defense Curl
-	db 22, FLAME_CHARGE ; Defense Curl → Flame Charge
-	db 28, DIG ; Flame Charge → TM move
+	db 18, FLAME_CHARGE ; Defense Curl → Flame Charge
+	db 27, DIG
 	db 31, SWIFT
-	db 37, REVERSAL ; Lava Plume → egg move
-	db 40, FLAMETHROWER
+	db 35, FLAMETHROWER
+	db 40, REVERSAL ; Lava Plume → egg move
 	db 46, EARTH_POWER ; Inferno → new move
-	db 49, ROLLOUT
+	db 49, SUNNY_DAY
 	db 55, DOUBLE_EDGE
 	db 58, EARTHQUAKE ; Burn Up → TM move
 	db 64, FLARE_BLITZ ; Eruption → egg move
@@ -3714,14 +3713,14 @@ QuilavaEvosAttacks:
 	db 6, SMOKESCREEN
 	db 10, EMBER
 	db 13, QUICK_ATTACK
-	db 20, DEFENSE_CURL ; Flame Wheel → Defense Curl
-	db 24, FLAME_CHARGE ; Defense Curl → Flame Charge
+	db 20, FLAME_CHARGE ; Defense Curl → Flame Charge
+	db 29, FIRE_PUNCH
 	db 31, SWIFT
 	db 36, CURSE ; Flame Charge → TM move CHANGED FROM DIG
+	db 37, FLAMETHROWER
 	db 42, REVERSAL ; Lava Plume → egg move
-	db 46, DEFENSE_CURL
-	db 53, EARTH_POWER ; Inferno → new move
-	db 57, ROLLOUT
+	db 49, EARTH_POWER ; Inferno → new move
+	db 55, SUNNY_DAY
 	db 64, DOUBLE_EDGE
 	db 68, EARTHQUAKE ; Burn Up → TM move
 	db 75, FLARE_BLITZ ; Eruption → egg move
@@ -3729,20 +3728,19 @@ QuilavaEvosAttacks:
 
 TyphlosionPlainEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, FIRE_PUNCH ; evolution move
+	db 1, EXTREMESPEED ; evolution move
 	db 1, TACKLE
 	db 1, LEER
 	db 6, SMOKESCREEN
 	db 10, EMBER
 	db 13, QUICK_ATTACK
-	db 20, DEFENSE_CURL ; Flame Wheel → Defense Curl
-	db 24, FLAME_CHARGE ; Defense Curl → Flame Charge
+	db 20, FLAME_CHARGE ; Defense Curl → Flame Charge
+	db 29, FIRE_PUNCH
 	db 31, SWIFT
-	db 35, DIG ; Flame Charge → TM move
 	db 38, FLAMETHROWER
 	db 43, REVERSAL ; Lava Plume → egg move
-	db 56, EARTH_POWER ; Inferno → new move
-	db 61, ROLLOUT
+	db 50, EARTH_POWER ; Inferno → new move
+	db 56, SUNNY_DAY
 	db 69, DOUBLE_EDGE
 	db 74, EARTHQUAKE ; Burn Up → TM move
 	db 81, FLARE_BLITZ ; Eruption → egg move
@@ -3750,21 +3748,20 @@ TyphlosionPlainEvosAttacks:
 
 TyphlosionHisuianEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, SHADOW_CLAW
+	db 1, EXTREMESPEED ; evolution move
 	db 1, ASTONISH ; new move
 	db 1, TACKLE
 	db 1, LEER
 	db 6, SMOKESCREEN
 	db 10, EMBER
 	db 13, QUICK_ATTACK
-	db 20, DEFENSE_CURL ; Flame Wheel → Defense Curl
-	db 24, FLAME_CHARGE ; Defense Curl → Flame Charge
+	db 20, FLAME_CHARGE ; Defense Curl → Flame Charge
+	db 29, FIRE_PUNCH
 	db 31, SWIFT
 	db 37, HEX
 	db 38, FLAMETHROWER
 	db 43, WILL_O_WISP ; Lava Plume → TM move
-	db 56, SHADOW_BALL
-	db 61, ROLLOUT
+	db 56, SUNNY_DAY
 	db 69, DOUBLE_EDGE
 	db 74, DARK_PULSE ; Infernal Parade → new move
 	db 81, FLARE_BLITZ ; Eruption → egg move
