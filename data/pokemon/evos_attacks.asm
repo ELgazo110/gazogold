@@ -3717,7 +3717,7 @@ QuilavaEvosAttacks:
 	db 20, FLAMETHROWER ; Flame Wheel → Defense Curl
 	db 24, FLAME_CHARGE ; Defense Curl → Flame Charge
 	db 31, SWIFT
-	db 35, SHADOW_BALL ; Flame Charge → TM move CHANGED FROM DIG
+	db 36, SHADOW_BALL ; Flame Charge → TM move CHANGED FROM DIG
 	db 42, REVERSAL ; Lava Plume → egg move
 	db 46, DEFENSE_CURL
 	db 53, EARTH_POWER ; Inferno → new move
