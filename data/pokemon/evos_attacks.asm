@@ -3707,7 +3707,7 @@ CyndaquilEvosAttacks:
 
 QuilavaEvosAttacks:
 	evo_data EVOLVE_LEVEL, 36, TYPHLOSION
-	evo_data EVOLVE_ITEM, DUSK_STONE, LEVEL_GT_30, TYPHLOSION, HISUIAN_FORM
+	evo_data EVOLVE_MOVE, SHADOW_BALL, TYPHLOSION, HISUIAN_FORM
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 1, LEER
@@ -3717,7 +3717,7 @@ QuilavaEvosAttacks:
 	db 20, FLAMETHROWER ; Flame Wheel → Defense Curl
 	db 24, FLAME_CHARGE ; Defense Curl → Flame Charge
 	db 31, SWIFT
-	db 35, DIG ; Flame Charge → TM move
+	db 36, SHADOW_BALL ; Flame Charge → TM move CHANGED FROM DIG
 	db 42, REVERSAL ; Lava Plume → egg move
 	db 46, DEFENSE_CURL
 	db 53, EARTH_POWER ; Inferno → new move
@@ -3739,8 +3739,8 @@ TyphlosionPlainEvosAttacks:
 	db 24, FLAME_CHARGE ; Defense Curl → Flame Charge
 	db 31, SWIFT
 	db 35, DIG ; Flame Charge → TM move
+	db 38, FLAMETHROWER
 	db 43, REVERSAL ; Lava Plume → egg move
-	db 48, FLAMETHROWER
 	db 56, EARTH_POWER ; Inferno → new move
 	db 61, ROLLOUT
 	db 69, DOUBLE_EDGE
@@ -3750,7 +3750,7 @@ TyphlosionPlainEvosAttacks:
 
 TyphlosionHisuianEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, SHADOW_CLAW ; evolution move
+	db 1, SHADOW_CLAW
 	db 1, ASTONISH ; new move
 	db 1, TACKLE
 	db 1, LEER
@@ -3760,10 +3760,10 @@ TyphlosionHisuianEvosAttacks:
 	db 20, DEFENSE_CURL ; Flame Wheel → Defense Curl
 	db 24, FLAME_CHARGE ; Defense Curl → Flame Charge
 	db 31, SWIFT
-	db 35, HEX
+	db 37, HEX
+	db 38, FLAMETHROWER
 	db 43, WILL_O_WISP ; Lava Plume → TM move
-	db 48, FLAMETHROWER
-	db 56, SHADOW_BALL
+	db 56, SHADOW_CLAW
 	db 61, ROLLOUT
 	db 69, DOUBLE_EDGE
 	db 74, DARK_PULSE ; Infernal Parade → new move
