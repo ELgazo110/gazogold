@@ -35,8 +35,6 @@ SpawnPlayer:
 	and a ; PLAYER_MALE
 	jr z, .ok
 	lb de, PAL_NPC_RED, OBJECTTYPE_SCRIPT
-	and a ;
-	jr z, .ok
 	assert PAL_NPC_RED + 1 == PAL_NPC_BLUE
 	inc d
 	dec a ; PLAYER_FEMALE
