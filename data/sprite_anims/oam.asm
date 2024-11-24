@@ -159,10 +159,10 @@ SpriteAnimOAMData:
 
 .OAMData_RedWalk:
 	db 4
-	dsprite -1,  0, -1,  0, $00, $0
-	dsprite -1,  0,  0,  0, $01, $0
-	dsprite  0,  0, -1,  0, $02, $0
-	dsprite  0,  0,  0,  0, $03, $0
+	dsprite -1,  0, -1,  0, $00, $3
+	dsprite -1,  0,  0,  0, $01, $3
+	dsprite  0,  0, -1,  0, $02, $3
+	dsprite  0,  0,  0,  0, $03, $3
 
 .OAMData_FlyMon:
 	db 4
