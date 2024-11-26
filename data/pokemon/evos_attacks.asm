@@ -3693,7 +3693,7 @@ CyndaquilEvosAttacks:
 	db 10, EMBER
 	db 13, QUICK_ATTACK
 	db 18, FLAME_CHARGE ; Defense Curl → Flame Charge
-	db 27, DIG
+	db 27, HEADBUTT
 	db 31, SWIFT
 	db 35, FLAMETHROWER
 	db 40, REVERSAL ; Lava Plume → egg move
@@ -3714,7 +3714,7 @@ QuilavaEvosAttacks:
 	db 10, EMBER
 	db 13, QUICK_ATTACK
 	db 20, FLAME_CHARGE ; Defense Curl → Flame Charge
-	db 29, FIRE_PUNCH
+	db 29, HEADBUTT
 	db 31, SWIFT
 	db 36, CURSE ; Flame Charge → TM move CHANGED FROM DIG
 	db 37, FLAMETHROWER
