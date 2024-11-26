@@ -3735,7 +3735,7 @@ TyphlosionPlainEvosAttacks:
 	db 10, EMBER
 	db 13, QUICK_ATTACK
 	db 20, FLAME_CHARGE ; Defense Curl → Flame Charge
-	db 29, FIRE_PUNCH
+	db 29, HEADBUTT
 	db 31, SWIFT
 	db 38, FLAMETHROWER
 	db 43, REVERSAL ; Lava Plume → egg move
@@ -3756,7 +3756,7 @@ TyphlosionHisuianEvosAttacks:
 	db 10, EMBER
 	db 13, QUICK_ATTACK
 	db 20, FLAME_CHARGE ; Defense Curl → Flame Charge
-	db 29, FIRE_PUNCH
+	db 29, HEADBUTT
 	db 31, SWIFT
 	db 37, HEX
 	db 38, FLAMETHROWER
